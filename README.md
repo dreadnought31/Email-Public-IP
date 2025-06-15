@@ -1,8 +1,10 @@
 Public IP Address Email Notification Script
+
 Author: Alan O'Brien
 Language: PowerShell
 
 Overview
+
 This PowerShell script retrieves your machine’s current public IP address using an external API and automatically sends it to a specified email address. The script is ideal for remote access scenarios, monitoring dynamic IP addresses, or keeping track of changes to your home or office public IP.
 
 Features
