@@ -9,8 +9,8 @@ $to = "<email address>"
 $subject = "Public IP Address Update - $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
 $body = "Your current public IP address is: $ip"
 
-# Email credentials (securely store these for production use)
-$securePassword = ConvertTo-SecureString "XXXX XXXX XXXX XXXX" -AsPlainText -Force (get this by creating an app password in gmail)
+# Email credentials (securely store these for production use)(get this by creating an app password in gmail)
+$securePassword = ConvertTo-SecureString "XXXX XXXX XXXX XXXX" -AsPlainText -Force 
 $cred = New-Object System.Management.Automation.PSCredential($from, $securePassword)
 
 # Send email
